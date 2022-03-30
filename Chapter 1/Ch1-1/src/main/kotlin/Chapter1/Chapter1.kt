@@ -52,4 +52,24 @@ class Chapter1 {
             sb.append(" ")
         }
     }
+
+    fun exercise3() {
+        val sb = StringBuilder("A well-formed Java program has\n")
+        sb.appendLine("a main method with { and }")
+        sb.appendLine("braces.")
+        sb.appendLine("")
+        sb.appendLine("A System.out.println statement")
+        sb.appendLine("has ( and ) and usually a")
+        sb.appendLine("String that starts and ends")
+        sb.appendLine("with a \" character.")
+        sb.appendLine("(But we type \\\" instead!")
+        sb.appendLine("Also, I wrote this in Kotlin")
+        sb.appendLine("so replace System.out.println")
+        sb.append("with println()")
+        print(sb)
+    }
+
+    fun exercise4() {
+        
+    }
 }
