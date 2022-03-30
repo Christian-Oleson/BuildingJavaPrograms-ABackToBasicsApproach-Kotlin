@@ -1,5 +1,6 @@
+import Chapter1.Chapter1
+
 fun main(args: Array<String>) {
-    println("//////////////////////")
-    println("|| Victory is mine! ||")
-    println("//////////////////////")
+    val chapter1 = Chapter1()
+    chapter1.exercise2Improved()
 }
