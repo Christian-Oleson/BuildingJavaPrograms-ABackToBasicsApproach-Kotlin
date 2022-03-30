@@ -73,4 +73,10 @@ class Chapter1 {
         println("What is the difference between\na ' and a \"? Or between a \" and a \\\"?\n");
         println("One is what we see when we're typing our program.\nThe other is what appears on the \"console\".");
     }
+
+    fun exercise5() {
+        println("A \"quoted\" String is\n'much' better if you learn\nthe rules of \"escape sequences.\"")
+        println("Also, \"\" represents an empty String.\nDon't forget: use \\\" instead of \" !")
+        println("'' is not the same as \"")
+    }
 }

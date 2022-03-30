@@ -1,6 +1,6 @@
 import Chapter1.Chapter1
 
-fun main(args: Array<String>) {
+fun main() {
     val chapter1 = Chapter1()
-    chapter1.exercise4()
+    chapter1.exercise5()
 }
